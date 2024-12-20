@@ -1,0 +1,14 @@
+
+.loader {
+    @apply w-7 h-7 rounded-full bg-transparent;
+    border-top-color: #091836;
+    border-left-color: #d7dfef;
+    border-bottom-color: #d7dfef;
+    border-right-color: #d7dfef;
+    border-width: 4px;
+}
+
+.loaderContainer {
+    @apply px-4;
+}
+

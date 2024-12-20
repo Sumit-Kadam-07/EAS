@@ -1,0 +1,60 @@
+
+.container {
+    @apply flex flex-col justify-center items-center w-screen h-screen gap-20 overflow-hidden;
+    background: #091836;
+}
+
+.container h2,.container h1 {
+    @apply font-sans text-white font-bold;
+}
+
+.container form {
+    @apply flex flex-col justify-center items-center gap-8  md:gap-10 w-full;
+}
+
+.container form input {
+    @apply outline-none px-5 py-2 md:py-3 rounded w-5/6 md:w-1/2 lg:w-1/3;
+    background: #252A57;
+    color: #dee2eb;
+}
+
+.container form input:focus {
+    scale: 1.03;
+}
+
+
+.container form button {
+    /* background: #ABB0DB; */
+    background: #D7DFEF;
+    color: #091836;
+    letter-spacing: 0.4px;
+    @apply text-lg py-3 px-6 lg:px-8 mt-6 rounded-lg font-semibold ;
+}
+
+.container form button:hover {
+    box-shadow: 4px 4px 20px #3f4d69;
+    scale:1.03;
+}
+
+.container form button:focus {
+    scale:0.95;
+}
+
+.container .links a {
+    background: #D7DFEF;
+    color:#091836;
+    box-shadow: 2px 2px 10px #212e49;
+    @apply text-lg py-3 px-6 lg:px-8 rounded-lg w-full text-center;
+}
+
+.container .links a:hover, .container .links a:focus {
+    box-shadow: 4px 4px 20px #3f4d69;
+}
+
+.container .links a:focus {
+    scale:0.95;
+}
+
+.links {
+    @apply flex flex-col justify-center items-center gap-7 w-max;
+}
