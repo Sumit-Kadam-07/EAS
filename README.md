@@ -1,115 +1,33 @@
-Overview
+Elective Allotment System
+The Elective Allotment System is a web-based application designed to simplify and automate the process of elective course selection and allotment in educational institutions. This project ensures transparency, efficiency, and fairness in the allotment process while providing a seamless user experience for students and administrators.
 
-The Elective Allotment System is a web-based application designed to streamline the process of elective course selection and allotment for educational institutions. It provides students with an easy-to-use platform for submitting their elective preferences and ensures a fair and efficient allotment process based on predefined criteria.
+Features:
+Student Portal:
 
-Features
+Secure login and authentication.
+Option to rank elective preferences based on interest.
+Real-time notifications for allotted electives.
+Administrator Dashboard:
 
-Student Management: Add, update, and manage student details.
+Manage elective courses and seat availability.
+Automated allotment based on predefined criteria (e.g., priority, availability).
+Resolve conflicts and generate detailed allotment reports.
+Automation:
 
-Elective Options: Define and manage available elective courses.
-
-Preference Submission: Allow students to submit their course preferences.
-
-Automated Allotment: Allocate electives based on criteria such as merit, preferences, and seat availability.
-
-Admin Dashboard: Monitor and manage the entire process.
-
-Notification System: Notify students of their allotted electives.
-
-Prerequisites
-
-To set up and run the system, you will need:
-
-A web server (e.g., Apache, Nginx)
-
-PHP (if applicable) or a backend runtime like Node.js, Python, or Ruby
-
-A relational database system like MySQL or PostgreSQL
-
-Modern web browser for client-side access
-
-Installation
-
-Clone the Repository
-
-git clone https://github.com/username/elective-allotment-system.git
-cd elective-allotment-system
-
-Backend Setup
-
-Install required dependencies:
-
-npm install  # If using Node.js
-
-or install dependencies based on your backend technology.
-
-Configure the database:
-
-Create a new database.
-
-Import the provided schema from database/schema.sql.
-
-Update the configuration file with your database credentials (e.g., .env or config.json).
-
-Frontend Setup
-
-If the project uses a frontend framework:
-
-cd frontend
-npm install
-npm run build
-
-Run the Application
-
-npm start  # Or use the equivalent command for your backend
-
-Access the application in your browser at http://localhost:3000 (or the specified port).
-
-Usage
-
-Admin:
-
-Login to the admin dashboard.
-
-Define elective courses and their seat limits.
-
-View and manage student preferences.
-
-Execute the allotment process.
-
-Student:
-
-Register or log in.
-
-View available electives.
-
-Submit preferences within the allowed timeframe.
-
-Check allotted electives once announced.
-
-Technologies Used
-
-Frontend: React.js, HTML, CSS, JavaScript
-
-Backend: Node.js (Express) / Django / Laravel
-
-Database: MySQL / PostgreSQL
-
-Other Tools: Docker, REST APIs, Bootstrap (or equivalent CSS framework)
-
-Contributing
-
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch for your feature or bugfix.
-
-Commit your changes and push the branch.
-
-Submit a pull request with a detailed description of your changes.
-
-License
-
-This project is licensed under the MIT License.
+Backend algorithms handle seat allotment efficiently.
+Reduces manual errors and saves administrative time.
+Technology Stack:
+Frontend: HTML, CSS, JavaScript (or framework like React/Angular).
+Backend: Node.js/Java/PHP with RESTful APIs.
+Database: MySQL/PostgreSQL for data storage.
+Tools: Git for version control, GitHub Actions for CI/CD integration.
+How to Use:
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/Sumit-Kadam-07/Elective_Allotment_Sys
+Navigate to the project directory and set up the environment.
+Start the application and explore the system as a student or admin.
+Objective:
+To provide an efficient, scalable, and user-friendly solution for elective allotment, reducing administrative workload and enhancing student satisfaction.
 
